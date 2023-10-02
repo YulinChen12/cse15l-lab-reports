@@ -32,4 +32,16 @@ cd commands:
 
 ls command:
   (1)An example of using the command with no arguments:
+
+  ![Image](ls1.png)
+
+  The working directory when the command runs is the root.
+
+  The output is lecture1. Because the ls command lists all files in the current directory which is currently the root directory.
+
+  The output is not an error.
+
+  (2)An example of using the command with a path to a directory as an argument:
+
+  ![Image](ls2.png)
   
