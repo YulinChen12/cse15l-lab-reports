@@ -1,3 +1,3 @@
 cd commands:
 (1)an example of using the command with no arguments:
-![Image](cdcommand1.png)
+![Image](cd1.png)
