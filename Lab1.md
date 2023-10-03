@@ -90,5 +90,3 @@ cat command:
   The output is the lines inside of the file argument. Because the cat command reads data from the file and gives its content as output.
 
   The output is not an error.
-  
-
