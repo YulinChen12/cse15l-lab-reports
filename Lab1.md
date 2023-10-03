@@ -77,7 +77,7 @@ cat command:
   (2)An example of using the command with a path to a directory as an argument:
 
   ![Image](cat2.png)
-
+  
   The working directory when the command runs is the root.
 
   The output says cat: lecture1: is a directory. This is because the cat command reads data from files, not directories. So the input argument     is irrelevant.
