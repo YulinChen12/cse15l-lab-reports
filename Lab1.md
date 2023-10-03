@@ -65,6 +65,7 @@ ls command:
 cat command:
 
   (1)An example of using the command with no arguments:
+  
   ![Image](cat1.png)
   
   The working directory when the command runs is the root.
