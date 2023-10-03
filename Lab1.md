@@ -44,4 +44,13 @@ ls command:
   (2)An example of using the command with a path to a directory as an argument:
 
   ![Image](ls2.png)
-  
+
+  The working directory when the command runs is the lecture1.
+
+  The output is all file names in the messages. This is because when we are taking a directory(under the current directory) as an argument, the    ls command will list all files in that argument directory.
+
+  The output is not an error.
+
+  (3)An example of using the command with a path to a file as an argument:
+
+  ![Image](ls3.png)
