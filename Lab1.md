@@ -60,3 +60,35 @@ ls command:
   The output repeats the input file path argument. Not like taking the directory as an argument, the ls command only displays the information      about the file when taking the file path as an argument. That is why it repeats the input file.
 
   The output is not an error.
+
+cat command:
+  (1)An example of using the command with no arguments:
+  ![Image](cat1.png)
+  
+  The working directory when the command runs is the root.
+
+  There is no output because when the cat command does not contain any arguments, it waits for input from my keyboard.
+
+  The output is not an error.
+
+  (2)An example of using the command with a path to a directory as an argument:
+
+  ![Image](cat2.png)
+
+  The working directory when the command runs is the root.
+
+  The output says cat: lecture1: is a directory. This is because the cat command reads data from files, not directories. So the input argument     is irrelevant.
+
+  The output is an error because the cat command cannot take a directory as an argument(only files).
+
+  (3)An example of using the command with a path to a file as an argument:
+
+  ![Image](cat3.png)
+
+  The working directory when the command runs is the messages directory.
+
+  The output is the lines inside of the file argument. Because the cat command reads data from the file and gives its content as output.
+
+  The output is not an error.
+  
+
