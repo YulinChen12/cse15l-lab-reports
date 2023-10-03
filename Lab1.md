@@ -31,6 +31,7 @@ cd commands:
   The output is an error, this is because en-us.txt is a file that cannot be used as a directory to change. So the change directory command is     not applied.
 
 ls command:
+
   (1)An example of using the command with no arguments:
 
   ![Image](ls1.png)
@@ -62,6 +63,7 @@ ls command:
   The output is not an error.
 
 cat command:
+
   (1)An example of using the command with no arguments:
   ![Image](cat1.png)
   
