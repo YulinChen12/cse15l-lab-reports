@@ -37,7 +37,7 @@ ls command:
 
   The working directory when the command runs is the root.
 
-  The output is lecture1. Because the ls command lists all files in the current directory which is currently the root directory.
+  The output is lecture1. Because the ls command lists all files(subdirectories) in the current directory which is currently the root directory.
 
   The output is not an error.
 
@@ -54,3 +54,9 @@ ls command:
   (3)An example of using the command with a path to a file as an argument:
 
   ![Image](ls3.png)
+
+  The working directory when the command runs is the messages directory.
+
+  The output repeats the input file path argument. Not like taking the directory as an argument, the ls command only displays the information      about the file when taking the file path as an argument. That is why it repeats the input file.
+
+  The output is not an error.
