@@ -76,7 +76,7 @@ cat command:
 
   (2)An example of using the command with a path to a directory as an argument:
 
-  ![Image](cat3.png)
+  ![Image](cat2.png)
   
   The working directory when the command runs is the root.
 
