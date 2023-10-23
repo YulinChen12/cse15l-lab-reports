@@ -19,3 +19,9 @@ I am still handling the query in the handleRequest method in the Handler class a
 By adding "How are you" to the query, the variable int num (which became num++) and the String word, which became “How are you”. There were some methods that helped reach the goal of this Lab Report. In my code I used getPath() and getQuery methods from URI.class. Moreover, I used the contains() and split() methods from the String. class. 
 
 Part2:
+
+![Image](private.png)
+
+![Image](public.png)
+
+![Image](nopassword.png)
