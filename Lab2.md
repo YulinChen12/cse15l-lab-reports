@@ -25,3 +25,7 @@ Part2:
 ![Image](public.png)
 
 ![Image](nopassword.png)
+
+Part3:
+
+Weeks 2 and 3 were very informative and educational. I learned how to create a server and perform various operations by utilizing the path, query, and Java code.  Also, the ssh key with no password required for logging into a course-specific account is very useful. Everything I have learned so far has already helped me in the CSE12 class and I’m sure will be handy in my future career!
