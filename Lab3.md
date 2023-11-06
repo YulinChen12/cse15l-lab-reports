@@ -29,7 +29,35 @@ Symptom:
 
 With bug:
 
-![Image](bug1.png)
+![Image](bug2.png)
 
 No bug:
 ![Image](bug.png)
+
+Fix the bug:
+
+The code before with the bug is 
+
+```java
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+
+The correct code should be:
+```java
+static void reverseInPlace(int[] arr) {
+    int n = arr.length;
+    for (int i = 0; i < n / 2; i++) {
+        int temp = arr[i];
+        arr[i] = arr[n - i - 1];
+        arr[n - i - 1] = temp;
+    }
+}
+```
+
+Explanation:
+
+The fix addresses the issue by ensuring that the division in the average calculation is performed as double division. In the buggy code, integer division was used, which resulted in truncating the fractional part and causing incorrect results. By changing (array.length - 1) to (array.length - 1.0), we ensure that the division is done in double precision, providing accurate averages that exclude the lowest element.
