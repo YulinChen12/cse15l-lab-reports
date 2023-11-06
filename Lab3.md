@@ -70,3 +70,20 @@ It uses a for loop to iterate from the beginning of the array to halfway. This i
 Inside the loop, it uses a temporary variable temp to store the value at the current index i. This is necessary to ensure that values aren't lost during the swapping process.
 
 It swaps the value at index i with the corresponding value at index n - i - 1, effectively reversing the values in the array.
+
+
+
+Part2:
+
+I will work with the grep command. I will show you 4 variations and alternate ways to use this command.
+
+An alternative way to find the file that contains the string “fall had been” in the data directory is to use grep -r -l "fall had been" .
+
+![Image](grep1.png)
+
+The -r flag is used to look through all of the subdirectories to find a specific pattern. The -l flag is used to print the names of the files
+where the pattern (in our case “fall had been”) is found. Combining them returns the path to all files where the string “fall had been” is. (in our
+case it’s chapter-9.txt).
+
+![Image](grep2.png)
+Or, for example, the pattern “as its fall had been” can be found in these files.
