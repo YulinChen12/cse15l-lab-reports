@@ -24,4 +24,12 @@ public void testReverseInPlace_Bug() {
     ArrayExamples.reverseInPlace(inputArray);
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, inputArray);
 }
+```
+Symptom:
 
+With bug:
+
+![Image](bug1.png)
+
+No bug:
+![Image](bug.png)
