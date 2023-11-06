@@ -90,6 +90,7 @@ case it’s chapter-9.txt).
 ![Image](grep2.png)
 Or, for example, the pattern “as its fall had been” can be found in these files.
 
+
 grep - n
 
 ![Image](grep-n1.png)
