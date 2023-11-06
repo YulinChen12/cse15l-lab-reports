@@ -30,7 +30,7 @@ Private key:
 ![Image](private.png)
 
 Public Key:
-![Image](public.png)
+![Image](public1.png)
 
 No password required:
 ![Image](nopassword.png)
