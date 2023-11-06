@@ -60,4 +60,13 @@ static void reverseInPlace(int[] arr) {
 
 Explanation:
 
-The fix addresses the issue by ensuring that the division in the average calculation is performed as double division. In the buggy code, integer division was used, which resulted in truncating the fractional part and causing incorrect results. By changing (array.length - 1) to (array.length - 1.0), we ensure that the division is done in double precision, providing accurate averages that exclude the lowest element.
+The old code attempted to reverse the input array in place but had a logical error in the loop. The problem was that it overwrote the values in the original array with reversed values incorrectly.
+
+But the new code:
+It introduces a variable n to store the length of the array, which simplifies the code and avoids recomputing the length in each iteration.
+
+It uses a for loop to iterate from the beginning of the array to halfway. This is because when you swap the first half of the array with the second half, you effectively reverse the entire array.
+
+Inside the loop, it uses a temporary variable temp to store the value at the current index i. This is necessary to ensure that values aren't lost during the swapping process.
+
+It swaps the value at index i with the corresponding value at index n - i - 1, effectively reversing the values in the array.
