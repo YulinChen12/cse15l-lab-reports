@@ -14,3 +14,13 @@ public void testReverseInPlace_Bug() {
     ArrayExamples.reverseInPlace(inputArray);
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, inputArray);
 }
+
+JUnit Test for the no Bug:
+```java
+@Test
+public void testReverseInPlace_Bug() {
+    int[] inputArray = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(inputArray);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, inputArray);
+}
+
