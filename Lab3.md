@@ -120,7 +120,7 @@ grep -c
 
 Here, the -c flag prints how many occurences of a pattern (in our case “fall”) is in chapter-9.txt and the paths to the files. 
 
-![Image](grep-c.png)
+![Image](grep-c2.png)
 
 Here, we are trying to find the pattern “report” in chapter-9.txt files As we can see there is 37
 occurrence of “report” in the txt file
