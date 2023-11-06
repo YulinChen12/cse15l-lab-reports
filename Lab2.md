@@ -26,10 +26,13 @@ getPath() and getQuery methods from URI.class . Moreover, I used contains() (tak
 split() (takes a character of a string as an argument) method from String.class.
 
 Part2:
+
 Private key:
+
 ![Image](private.png)
 
 Public Key:
+
 ![Image](public1.png)
 
 No password required:
