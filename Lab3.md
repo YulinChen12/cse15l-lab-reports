@@ -9,8 +9,8 @@ Failure-Inducing Input:
 JUnit Test for the Bug:
 ```java
 @Test
-public void testAverageWithoutLowest_Bug() {
-    int[] inputArray = {4, 7, 2, 9, 1};
-    double result = SomeClass.averageWithoutLowest(inputArray);
-    assertEquals(5.75, result, 0.01);
+public void testReverseInPlace_Bug() {
+    int[] inputArray = {1, 2, 3, 4, 5};
+    ArrayExamples.reverseInPlace(inputArray);
+    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, inputArray);
 }
