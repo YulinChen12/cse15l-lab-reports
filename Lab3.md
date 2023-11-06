@@ -5,7 +5,6 @@ I'll provide an example of a bug from week 4's lab and follow the requested form
 I'll consider a bug in a hypothetical Java program where a method to calculate the average of an array of integers, `averageWithoutLowest`, has a bug. The bug is that it does not correctly exclude the lowest element when calculating the average.
 
 
-Failure-Inducing Input
 JUnit Test for the Bug:
 
 @Test
