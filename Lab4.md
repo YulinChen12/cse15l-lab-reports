@@ -10,8 +10,7 @@ Step2: Clone the repository from Github account (using the SSH URL):
 
 Use git clone to the SSH link on Github.
 
-Step 3:
-Compile and Run the java test:
+Step 3: Compile and Run the java test:
 
 ![Image](junit.png)
 
