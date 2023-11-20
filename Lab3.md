@@ -19,10 +19,10 @@ public void testReverseInPlace_Bug() {
 JUnit Test for the no Bug:
 ```java
 @Test
-public void testReverseInPlace_Bug() {
-    int[] inputArray = {1, 2, 3, 4, 5};
+public void testReverseInPlace_no_Bug() {
+    int[] inputArray = {1};
     ArrayExamples.reverseInPlace(inputArray);
-    assertArrayEquals(new int[]{5, 4, 3, 2, 1}, inputArray);
+    assertArrayEquals(new int[]{1}, inputArray);
 }
 ```
 Symptom:
@@ -76,8 +76,9 @@ It swaps the value at index i with the corresponding value at index n - i - 1, e
 Part2:
 
 I will work with the grep command. I will show you 4 variations and alternate ways to use this command.
-
+```java
 grep -r -1
+```
 
 Analternative way to find the file that contains the string “fall had been” in the data directory is to use grep -r -l "fall had been" .
 
