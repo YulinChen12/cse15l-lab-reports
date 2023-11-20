@@ -92,7 +92,9 @@ The -r flag is used to look through all of the subdirectories to find a specific
 where the pattern (in our case “fall had been”) is found. Combining them returns the path to all files where the string “fall had been” is. (in our
 case it’s chapter-9.txt).
 
-![Image](grep2.png)
+```
+chapter-9.txt:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+```
 Or, for example, the pattern “as its fall had been” can be found in these files.
 
 ```
