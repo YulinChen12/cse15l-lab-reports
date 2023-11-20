@@ -101,8 +101,45 @@ Or, for example, the pattern “as its fall had been” can be found in these fi
 grep - n
 ```
 
-
-![Image](grep-n1.png)
+```
+122:                designated "transition team"- reported to their regular stations to provide
+296:                groups, primarily between the 103rd and 106th floors. A large group was reported on
+311:                advised by the Port Authority fire safety director-who had reported to the lobby
+371:                debilitating volumes and isolated fires were reported, although there were some
+466:                zone as scouting units and reporting back to the chiefs in the lobby. The radio
+479:                to report back on conditions, but did not know what the impact floors were; they did
+516:                specific casualty reports. In addition, many ambulance paramedics from private
+520:            Numerous NYPD officers saw the plane strike the North Tower and immediately reported
+535:                report on conditions and assess the feasibility of a rooftop landing or of special
+691:                location on the 100th floor, and severe smoke conditions were reported throughout
+695:                reports of tremendous smoke on that floor, but at least one area remained less
+743:                tower, and stairwell A was reported to have been almost empty. Stairwell B was also
+744:                reported to have contained only a handful of descending civilians at an earlier
+756:                least one stairwell was reported to have been "clear and bright" from the upper 80s
+811:                administrative positions-who lacked a predetermined operating role also reported to
+849:                reports of what was seen from the [NYPD] helicopters. It was impossible to know how
+862:            Many units were simply instructed to ascend toward the impact zone and report back to
+900:                either because of a false report of a third plane approaching or because of his
+956:                that had been dispatched to the North Tower prior to 9:03 reported immediately to
+1000:                stairwell A; he reported that it looked open to the 79th floor, well into the impact
+1001:                zone. He also reported numerous civilian fatalities in the area.
+1014:                that 100 people were reported via 911 to be trapped on the 105th floor of the North
+1015:                Tower, and Field Comm then attempted to convey that report to chiefs at the outdoor
+1018:                because many units reported directly to the North Tower, the South Tower, or the
+1044:                Chief of Department a status report and confirmed that this was a rescue, not
+1146:            At 9:37, a civilian on the 106th floor of the South Tower reported to a 911 operator
+1168:                police desk reporting at least 100 people trapped.
+1373:                complex and nearby areas should be evacuated. At 10:04, NYPD aviation reported that
+1387:                complex. This officer, who had observed the South Tower collapse, reported it to ESU
+1398:                the descent, they reported seeing many firefighters who were resting and did not
+1399:                seem to be in the process of evacuating. They further reported advising these
+1404:                instruction from a cop that morning. However, another firefighter reports that ESU
+1538:                This was the first of three evacuations caused by reports of incoming aircraft, and
+1554:                communications, the report concludes: "Almost all aspects of communications continue
+1756:                reporting from the tunnel and airport commands could not hear instructions being
+1770:                reported to the same ESU command post. It is unclear, however, whether non-ESU NYPD
+1804:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+```
 
 
 This grep command with the -n flag not only finds the occurence of a pattern in a given file, but also prints the line where this pattern is.
