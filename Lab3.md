@@ -83,6 +83,7 @@ grep -r -1
 Analternative way to find the file that contains the string “fall had been” in the data directory is to use grep -r -l "fall had been" .
 
 ```
+[user@sahara ~/docsearch/technical/911report]$ grep -r -1 "fall had been"
 chapter-9.txt-                institution, was in possession of the knowledge that the South Tower had collapsed
 chapter-9.txt:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
 chapter-9.txt-                dispatch channel. Because of internal breakdowns within the department, however,
@@ -93,6 +94,7 @@ where the pattern (in our case “fall had been”) is found. Combining them ret
 case it’s chapter-9.txt).
 
 ```
+[user@sahara ~/docsearch/technical/911report]$ grep -r  "fall had been"
 chapter-9.txt:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
 ```
 Or, for example, the pattern “as its fall had been” can be found in these files.
@@ -102,6 +104,7 @@ grep - n
 ```
 
 ```
+[user@sahara ~/docsearch/technical/911report]$ grep -n "report" chapter-9.txt
 122:                designated "transition team"- reported to their regular stations to provide
 296:                groups, primarily between the 103rd and 106th floors. A large group was reported on
 311:                advised by the Port Authority fire safety director-who had reported to the lobby
@@ -146,6 +149,7 @@ This grep command with the -n flag not only finds the occurence of a pattern in 
 
 
 ```
+[user@sahara ~/docsearch/technical/911report]$ grep -n "fall" chapter-9.txt
 486:                some civilians on upper floors were jumping or falling from the building. They also
 567:                could walk to vacate the area immediately. Putting themselves in danger of falling
 782:                to the north and east so that they might avoid falling debris and victims.
@@ -166,8 +170,14 @@ We can use this command to search for a pattern in all text of a given directory
 ```
 grep - w
 ```
-
-![Image](grep-w1.png)
+```
+[user@sahara ~/docsearch/technical/911report]$ grep -w "fall" chapter-9.txt
+                repeating"Mayday, Mayday, Mayday"-during the 29 minutes between the fall of the
+                leave, as this tower could fall as well. The units then proceeded to exit onto West
+                appeared to be about to fall and could pose a danger to those below. Immediately
+                the fall of either tower before the South Tower collapsed, and no NYPD personnel
+                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+```
 
 
 This grep command variation with a -w flag finds the actual pattern (in our case “fall”) instead of finding also the modifications of this
