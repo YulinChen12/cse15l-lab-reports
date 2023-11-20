@@ -184,7 +184,27 @@ This grep command variation with a -w flag finds the actual pattern (in our case
 word. For example, the $ grep -n "fall" chapter-9.txt command would print lines that contain words fall as well.
 
 
-![Image](grep-w2.png)
+```
+[user@sahara ~/docsearch/technical/911report]$ grep -r -1 -w "fall" chapter-9.txt
+                building's collapse may be imminent-a protocol that includes constantly
+                repeating"Mayday, Mayday, Mayday"-during the 29 minutes between the fall of the
+                SouthTower and that of the NorthTower. In addition, most of the evacuation
+--
+                earlier seen from a window that the SouthTower had collapsed-urged that they all
+                leave, as this tower could fall as well. The units then proceeded to exit onto West
+                Street. While they were doing so, the NorthTower began its pancake collapse, killing
+--
+                At 9:51 A.M., a helicopter pilot cautioned that "large pieces" of the South Tower
+                appeared to be about to fall and could pose a danger to those below. Immediately
+                after the tower's collapse, a helicopter pilot radioed that news. This transmission
+--
+                be overstated. Contrary to a widely held misperception, no NYPD helicopter predicted
+                the fall of either tower before the South Tower collapsed, and no NYPD personnel
+                began to evacuate the WTC complex prior to that time. Furthermore, the FDNY, as an
+                institution, was in possession of the knowledge that the South Tower had collapsed
+                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+                dispatch channel. Because of internal breakdowns within the department, however,
+```
 
 
 The flags -r , -l , -w and many others can be combined. For example, in this case the output is the paths to all .txt files in all the
