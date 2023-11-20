@@ -82,7 +82,11 @@ grep -r -1
 
 Analternative way to find the file that contains the string “fall had been” in the data directory is to use grep -r -l "fall had been" .
 
-![Image](grep1.png)
+```
+chapter-9.txt-                institution, was in possession of the knowledge that the South Tower had collapsed
+chapter-9.txt:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+chapter-9.txt-                dispatch channel. Because of internal breakdowns within the department, however,
+```
 
 The -r flag is used to look through all of the subdirectories to find a specific pattern. The -l flag is used to print the names of the files
 where the pattern (in our case “fall had been”) is found. Combining them returns the path to all files where the string “fall had been” is. (in our
