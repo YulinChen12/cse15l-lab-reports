@@ -214,12 +214,17 @@ subdirectories that contain the pattern “fall” and only “fall”.
 grep -c 
 ```
 
-![Image](grep-c1.png)
+```
+[user@sahara ~/docsearch/technical/911report]$ grep -c "fall" chapter-9.txt
+12
+```
 
 
 Here, the -c flag prints how many occurences of a pattern (in our case “fall”) is in chapter-9.txt and the paths to the files. 
-
-![Image](grep-c2.png)
+```
+[user@sahara ~/docsearch/technical/911report]$ grep -c "fall" chapter-9.txt
+37
+```
 
 Here, we are trying to find the pattern “report” in chapter-9.txt files As we can see there is 37
 occurrence of “report” in the txt file
