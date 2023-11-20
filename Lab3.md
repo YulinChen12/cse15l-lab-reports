@@ -145,7 +145,20 @@ grep - n
 This grep command with the -n flag not only finds the occurence of a pattern in a given file, but also prints the line where this pattern is.
 
 
-![Image](grep-n2.png)
+```
+486:                some civilians on upper floors were jumping or falling from the building. They also
+567:                could walk to vacate the area immediately. Putting themselves in danger of falling
+782:                to the north and east so that they might avoid falling debris and victims.
+790:                approaching lower floors. Other evacuees were killed earlier by debris falling on
+1117:                endangered by falling debris and people on West Street, on the plaza between the
+1258:                repeating"Mayday, Mayday, Mayday"-during the 29 minutes between the fall of the
+1317:                leave, as this tower could fall as well. The units then proceeded to exit onto West
+1443:                and avoid being struck by people and debris falling from the upper floors.
+1794:                appeared to be about to fall and could pose a danger to those below. Immediately
+1801:                the fall of either tower before the South Tower collapsed, and no NYPD personnel
+1804:                as early as the NYPD, as its fall had been immediately reported by an FDNY boat on a
+1829:                post. In our judgment, this falls short of an optimal response plan, which requires
+```
 
 
 We can use this command to search for a pattern in all text of a given directory.
