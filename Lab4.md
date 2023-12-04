@@ -4,7 +4,7 @@ Step 1 for Lab4: Login in to ieng6:
 
 Login in to the ieng6 using username and password
 
-First,put in the command ssh cs15lfafs@ieng6@ucsd.edu
+First,put in the command ssh<space>cs15lfafs@ieng6@ucsd.edu
 
 Then I entered my password and login in successfully.
 
