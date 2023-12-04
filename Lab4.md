@@ -36,15 +36,17 @@ Step4: Edit the code file ListExamples.java to fix the failing test
 
 After compiling and running the Java test, We now see that there are two errors:
 
-![Image](change.png)
-
 So the key that I press is:
 
 vim ListExamples.java
 
 This will allow me to edit the java file to fix the errors.
 
+![Image](vim.png)
+
 First I press i on the keyboard to the insert mode:
+
+![Image](change.png)
 
 Then I change the index1 to index2, this will make the code run with no errors.
 
