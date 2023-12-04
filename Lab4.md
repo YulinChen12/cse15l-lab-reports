@@ -56,11 +56,11 @@ Step5: Run the tests, demonstrating that they now succeed
 
 I recompile and run the Java Test in order to test if the code doesn't have any errors now.
 
-In order to do that I press: <up><up><up><up><enter> ,
+In order to do that I press: <up> <up> <up> <up> <enter> ,
 
 The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 4 up in the search history
 
-Then <up><up><up><up><enter> , 
+Then <up> <up> <up> <up> <enter> , 
 
 the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ... command was 4 up in the history, so I accessed and ran it in the same way.
 
