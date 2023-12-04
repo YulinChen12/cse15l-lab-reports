@@ -39,7 +39,7 @@ Thanks for the suggestion! I checked the numbers.txt file and there is an error 
 
 It worked perfectly fine, thank you so much!
 
-## Informations of the Set Up:
+## Information of the Set Up:
 
 ### File & Directory Structure Needed:
 NumberProcessor.java (Java source file)
