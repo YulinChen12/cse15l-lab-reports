@@ -52,7 +52,7 @@ runProcessor.sh (Bash script to compile and run the Java program)
 
 1.NumberProcessor.java:
 
-``
+```
 import java.io.*;
 import java.nio.file.*;
 
@@ -70,6 +70,6 @@ public class NumberProcessor {
         }
     }
 }
-``
+```
 
 
