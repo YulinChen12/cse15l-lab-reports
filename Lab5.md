@@ -1,4 +1,4 @@
-# Lab Report - Debugging Scenario on EdStem
+# Lab Report Part 1 - Debugging Scenario on EdStem
 
 Scenario Setup:
 
@@ -107,3 +107,16 @@ After making this correction, rerun the runProcessor.sh script, and the Java pro
 
 This setup and resolution guide provides a clear pathway for identifying and fixing a common type of error encountered in programming, highlighting the importance of data validation and error handling in software development.
 
+# Lab Report Part 2 - Reflection
+
+Expanding on my learning experience in the second half of this quarter, I delved deeper into the Unix command line, uncovering its profound impact on my approach to programming and problem-solving. Before this, my interaction with Unix was rudimentary, often limited to basic file navigation and editing. However, through the labs, I began to appreciate the nuanced capabilities of these tools.
+
+For example, the grep command transformed the way I handle large sets of data. I learned to efficiently search for specific patterns within files, a skill that proved invaluable when sifting through extensive codebases or logs to pinpoint issues. This not only saved time but also introduced a level of precision in debugging that I hadn't experienced before.
+
+Furthermore, my understanding of remote server interaction deepened significantly. Using ssh to securely connect to and work on remote servers was a concept I knew in theory but hadn't practiced much. The labs provided a hands-on opportunity to use ssh in real-world scenarios, enhancing my grasp of distributed development environments and the importance of secure connections.
+
+The use of vim also stood out. Initially, it seemed daunting with its unique keybindings and modes. However, as I used it more, I began to appreciate its power and efficiency for code editing, especially when working remotely or on servers where graphical text editors are not available.
+
+Lastly, engaging with tutors and classmates opened my eyes to the collaborative nature of software development. I learned new tricks and shortcuts from peers, which often led to discussions about best practices and alternative methods. This collaborative learning environment was not just about sharing knowledge but also about understanding different perspectives and approaches to problem-solving in software development.
+
+In summary, the second half of this quarter was a journey of expanding my technical knowledge, especially around Unix tools, and understanding the collaborative, interconnected nature of the software development process. This experience has made me a more versatile and efficient developer, and has sparked a continuous desire to learn and explore more in this field.
