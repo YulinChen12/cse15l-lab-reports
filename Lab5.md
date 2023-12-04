@@ -71,5 +71,39 @@ public class NumberProcessor {
     }
 }
 ```
+2.numbers.txt
 
+```
+10
+15
+20
+12s  // Non-numeric value causing NumberFormatException
+```
+
+3.runProcessor.sh
+
+```
+#!/bin/bash
+javac NumberProcessor.java
+java NumberProcessor
+```
+
+# Full Command Line to Trigger the Bug:
+
+Run the Bash script to compile and execute the Java program:
+bash
+
+```
+bash runProcessor.sh
+```
+
+# Description of What to Edit to Fix the Bug:
+
+The bug is caused by a non-numeric value ('12s') in the numbers.txt file, which the Java program attempts to parse as an integer, leading to a NumberFormatException.
+
+To fix the bug, you need to edit the numbers.txt file to ensure it only contains valid numeric values. Specifically, remove or correct the invalid entry 12s to a valid integer. For example, change 12s to 12.
+
+After making this correction, rerun the runProcessor.sh script, and the Java program should execute correctly, calculating and displaying the total sum of the numbers in the file.
+
+This setup and resolution guide provides a clear pathway for identifying and fixing a common type of error encountered in programming, highlighting the importance of data validation and error handling in software development.
 
