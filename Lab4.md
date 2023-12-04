@@ -5,6 +5,7 @@ Step 1 for Lab4: Login in to ieng6:
 Login in to the ieng6 using username and password
 
 First,put in the command ssh <space> cs15lfafs@ieng6@ucsd.edu
+then press enter
 
 Then I entered my password and login in successfully.
 
@@ -14,7 +15,9 @@ Step2: Clone the repository from Github account (using the SSH URL):
 
 Use git clone to the SSH link on Github.
 
-I use the key press git clone followed by the link from the Github : git@github.com:YulinChen12/lab7.git
+I use the key press git clone followed by the link from the Github : 
+
+git@github.com:YulinChen12/lab7.git then press enter
 
 Step 3: Compile and Run the Java test:
 
@@ -22,13 +25,13 @@ Step 3: Compile and Run the Java test:
 
 First use the command cd into the lab7 directory, 
 
-cd lab7
+cd lab7  and press enter
 
 Then compile and run the Java test.
 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java  then press enter
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests then press enter
 
 Step4: Edit the code file ListExamples.java to fix the failing test
 
@@ -38,7 +41,7 @@ After compiling and running the Java test, We now see that there are two errors:
 
 So the key that I press is:
 
-vim ListExamples.java
+vim ListExamples.java then press enter
 
 This will allow me to edit the java file to fix the errors.
 
