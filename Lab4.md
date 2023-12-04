@@ -1,41 +1,82 @@
 Step 1 for Lab4: Login in to ieng6:
 
-![Image](login.png)
+![Image](newlogin.png)
 
 Login in to the ieng6 using username and password
 
+First,put in the command ssh cs15lfafs@ieng6@ucsd.edu
+
+Then I entered my password and login in successfully.
+
 Step2: Clone the repository from Github account (using the SSH URL):
 
-![Image](clone.png)
+![Image](gitclone.png)
 
 Use git clone to the SSH link on Github.
 
-Step 3: Compile and Run the java test:
+I use the key press git clone followed by the link from the Github : git@github.com:YulinChen12/lab7.git
+
+Step 3: Compile and Run the Java test:
 
 ![Image](junit.png)
 
-cd into the lab7 directory, compile and run the java test. We see they are two errors.
+First use the command cd into the lab7 directory, 
+
+cd lab7
+
+Then compile and run the Java test.
+
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 
 Step4: Edit the code file ListExamples.java to fix the failing test
 
+![Image](javatest.png)
+
+After compiling and running the Java test, We now see that there are two errors:
+
 ![Image](change.png)
 
-I change the index1 to index2,this will make the code run with no errors.
-Press ctrl + x to exit the file reading, then press Y and enter to save the file.
+So the key that I press is:
+
+vim ListExamples.java
+
+This will allow me to edit the java file to fix the errors.
+
+First I press i on the keyboard to the insert mode:
+
+Then I change the index1 to index2, this will make the code run with no errors.
+
+After that I press esc and:wq to save the file and exit it.
 
 Step5: Run the tests, demonstrating that they now succeed
 
-![Image](allpass.png)
+I recompile and run the Java Test in order to test if the code doesn't have any errors now.
 
-Compile and run the java test again.
+In order to do that I press: <up><up><up><up><enter>,
+
+The javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java command was 4 up in the search history
+
+Then <up><up><up><up><enter> , 
+
+the java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ... command was 4 up in the history, so I accessed and ran it in the same way.
+
+![Image](newsucc.png)
+
+Compile and run the Java test again.
 Now all test is passing.
 
-Step6: Commit and push the resulting change to your Github account
+Step6: Commit and push the resulting change to your GitHub account
+
+I use the command: git add to add the new file
+
+Then I use the command git commit -m "edited" to commit the change with a comment.
+
+Lastly, git push to push into my Git Hub.
 
 ![Image](push.png)
 
-Use git add and commit the change, then push into the github
-
 ![Image](github.png)
 
-Now we can see the correct code in the github.
+Now we can see the correct code in the GitHub.
