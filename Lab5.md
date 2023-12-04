@@ -1,4 +1,4 @@
-### Lab Report - Debugging Scenario on EdStem
+# Lab Report - Debugging Scenario on EdStem
 
 Scenario Setup:
 
