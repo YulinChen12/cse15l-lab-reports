@@ -41,7 +41,7 @@ It worked perfectly fine, thank you so much!
 
 ## Informations of the Set Up:
 
-# File & Directory Structure Needed:
+### File & Directory Structure Needed:
 NumberProcessor.java (Java source file)
 
 numbers.txt (Input data file)
@@ -88,7 +88,7 @@ javac NumberProcessor.java
 java NumberProcessor
 ```
 
-# Full Command Line to Trigger the Bug:
+### Full Command Line to Trigger the Bug:
 
 Run the Bash script to compile and execute the Java program:
 bash
@@ -97,7 +97,7 @@ bash
 bash runProcessor.sh
 ```
 
-# Description of What to Edit to Fix the Bug:
+### Description of What to Edit to Fix the Bug:
 
 The bug is caused by a non-numeric value ('12s') in the numbers.txt file, which the Java program attempts to parse as an integer, leading to a NumberFormatException.
 
